@@ -1,4 +1,1 @@
-# python
-python
 
-deep learing 
