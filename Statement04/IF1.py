@@ -48,3 +48,22 @@ print(code >= ord('B'))
 if('0' <= chr(code) <= '9'):
     print("숫자입니다.")
 
+'''
+문] 사용자가 입력한 문자가 숫자인지 먼저 판단하고 숫자라면 2ㅡ이 배수인지를 판단하여
+2의 배수인 경우만 '2의 배수입니다'라고 출력하여라
+'''
+
+#방법1] 하나의 조건식안에서 논리 연산으로 처리
+isMulitiple = '0' <= chr(code) <= '9' and (code-ord('0')) % 2 == 0
+if isMulitiple:
+    print("2의 배수입니다.")
+if '0' <= chr(code) <= '9' and (code-ord('0')) % 2 != 0:
+    print("2의 배수가 아닙니다.")
+
+#방법2]if문 안의 if문으로 처리
+if '0' <= chr(code) <='9':
+    isMulitiple=(code-ord('0')) % 2 == 0
+    if isMulitiple:
+        print("2의 배수입니다")
+    if not isMulitiple:
+        print("2의 배수가 아닙니다")
