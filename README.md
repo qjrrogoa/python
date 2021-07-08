@@ -13,3 +13,5 @@
 
     list -> str Join()
     str -> list Split()
+    
+    .remove(객체) .pop(인덱스)
