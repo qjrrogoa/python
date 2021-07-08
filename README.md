@@ -10,3 +10,6 @@
     iterable 한 객체
     map(iterable한 객체를 반환), str, tuple, list, range
     그 중 ~~ 순서가 있는? list
+
+    list -> str Join()
+    str -> list Split()
