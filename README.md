@@ -15,3 +15,7 @@
     str -> list Split()
     
     .remove(객체) .pop(인덱스)
+    
+    인덱스 찾기
+    str - .find("객체")
+    list - .index("객체")
