@@ -42,7 +42,7 @@ for element in a:
 # 튜플로 묶어서 enumerate 객체(반복가능한 객체)로 반환
 # ※ 보통 enumerate 함수는 for문과 함께 자주 사용된다.
 for index, element in enumerate(a): #튜플인 각 요소를 구조분해(언팩킹)로 각 변수에 저장
-    print("인덱스 : {},요소 : {}".format(index,element))
+    print("인덱스 : {}, 요소 : {}".format(index,element))
 
 print("[시퀀스 객체[인덱스]=새로운 요소로 변경하기]")
 #a[0] = 'B' #TypeError: 'str' object does not support item assignment

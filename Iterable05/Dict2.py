@@ -57,7 +57,7 @@ for key,value in x:
 y=b.keys()
 print("key : {}, value : {}".format(y, type(y)))
 for key in y:
-    print("값 : {}".format(key))
+    print("키 : {}".format(key))
 
 z=b.values()
 print("key : {}, value : {}".format(z, type(z)))
